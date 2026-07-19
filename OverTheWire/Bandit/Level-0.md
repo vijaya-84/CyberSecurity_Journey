@@ -1,19 +1,78 @@
-# Bandit Level 0
- 
+\# Bandit Level 0
+
+
+
+
+
+
+
 Challenge
+
+
+
 Log into the game using SSH. The host to connect is bandit.labs.overthewire.org, on port 2220. The username and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1
 
+
+
+
+
+
+
 Approach
+
+
+
 To connect to the remote server, i used the SSH command with the username and password. Once connected to the server successfully , Level 0 was completed.
 
+
+
+
+
+
+
 Command
+
+
+
 ssh bandit0@bandit.labs.overtherwire.org -p 2220
 
 
+
+
+
+
+
+
+
+
+
 What I Learned
+
+
+
 How to use the ssh command to connect with the remote server
+
+
+
 How ports work, port 2220 instead of default port 22
+
+
+
 authentication with username and password through SSH
 
+
+
+
+
+
+
 Key Takeaway
+
+
+
 The command SSH (secure shell) is the way to securely connect to remote Linux server. This is core skill used every day in real cybersecurity.
+
+
+
+
+
